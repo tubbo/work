@@ -17,3 +17,5 @@ bin/*
 .bundle/*
 
 data_bags
+.kitchen/
+.kitchen.local.yml

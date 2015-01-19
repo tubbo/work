@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: osx-10.9
+  - name: osx-10.10
+
+suites:
+  - name: default
+    run_list:
+      - recipe[work::default]
+    attributes:
