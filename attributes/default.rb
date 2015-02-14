@@ -56,3 +56,6 @@ default['work']['gems'] = %w(
 default['work']['config_repo'] = 'git@github.com:tubbo/home.git'
 default['work']['ruby_version'] = '2.1.5'
 default['work']['username'] = 'tubbo'
+
+default['mac_os_x']['settings'] = {}
+

@@ -6,11 +6,11 @@ description      'Builds my workstation'
 long_description 'Builds my workstation'
 version          '0.0.1'
 
-depends 'macosx'
+depends 'mac_os_x'
 depends 'homebrew'
 depends 'users'
 depends 'ruby_install'
 
-supports 'macosx', '>= 10.10'
+supports 'mac_os_x', '>= 10.10'
 
 recipe 'work::default', 'Build the workstation.'
