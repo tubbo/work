@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# Converge this cookbook on the local machine.
+
+berks install
+chef-solo -r work

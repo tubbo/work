@@ -51,6 +51,7 @@ default['work']['gems'] = %w(
   rails
   travis
   macgap
+  bundler
 )
 default['work']['config_repo'] = 'git@github.com:tubbo/home.git'
 default['work']['ruby_version'] = '2.1.5'
