@@ -6,7 +6,6 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: osx-10.9
   - name: osx-10.10
 
 suites:
