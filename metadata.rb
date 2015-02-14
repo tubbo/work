@@ -8,10 +8,8 @@ version          '0.0.1'
 
 depends 'macosx'
 depends 'homebrew'
-depends 'git'
 depends 'users'
 depends 'ruby_install'
-depends 'chef-dk'
 
 platform 'macosx', '>= 10.9'
 

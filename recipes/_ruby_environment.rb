@@ -1,4 +1,3 @@
-include_recipe 'chruby'
 include_recipe 'ruby_install'
 
 ruby_install_ruby node['work']['ruby_version'] do

@@ -20,3 +20,4 @@ vendor
 data_bags
 .kitchen/
 .kitchen.local.yml
+.env
