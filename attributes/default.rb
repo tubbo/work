@@ -49,7 +49,6 @@ default['work']['casks'] = %w(
 )
 default['work']['gems'] = %w(
   rails
-  weechat
   travis
   macgap
 )
