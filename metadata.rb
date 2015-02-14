@@ -11,6 +11,6 @@ depends 'homebrew'
 depends 'users'
 depends 'ruby_install'
 
-platform 'macosx', '>= 10.9'
+supports 'macosx', '>= 10.10'
 
 recipe 'work::default', 'Build the workstation.'
